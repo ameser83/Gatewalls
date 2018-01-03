@@ -14,7 +14,7 @@ module.exports = {
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
     id:
     {
-      type:"string", 
+      type:"integer", 
       required: true,
       autoIncrement:true
     },

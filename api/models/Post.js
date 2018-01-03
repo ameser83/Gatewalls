@@ -24,7 +24,11 @@ module.exports = {
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
     title: {type: "string"},
     subtitle: {type: "string"},
-    userId: {type:"string"}
+    user: {model:"user"},
+    likes: {
+              collection:"like", 
+              via: "post"
+           }
   },
 
 };
