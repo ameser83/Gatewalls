@@ -22,9 +22,14 @@ module.exports = {
     //  ╔═╗╔═╗╔═╗╔═╗╔═╗╦╔═╗╔╦╗╦╔═╗╔╗╔╔═╗
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
+    id:
+    {
+      type:"integer", 
+      autoIncrement:true
+    },
     title: {type: "string"},
     subtitle: {type: "string"},
-    user: {model:"user"},
+    user: {model:"user", required: true},
     likes: {
               collection:"like", 
               via: "post"

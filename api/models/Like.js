@@ -11,14 +11,14 @@ module.exports = {
     id:
     {
       type:"integer", 
-      required: true,
       autoIncrement:true
     },
-    post:  {
-             model:"post",       
-             unique: true
+    post: {
+             model:"post"
           },
-    user: {model:"user"}
+    user: {
+             model:"user"
+    }
   }
 };
 
