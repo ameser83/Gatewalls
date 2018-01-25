@@ -50,7 +50,11 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-
+    adapter: 'sails-mongo',
+    // url: 'mongodb://ameser:Chiapas2013@cluster0-shard-00-00-fvkye.mongodb.net:27017,cluster0-shard-00-01-fvkye.mongodb.net:27017,cluster0-shard-00-02-fvkye.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin',
+    url: 'mongodb://gatewalls:mhD5AGpjHnAfCXaqTpN9NST1CtQQIPY8YlI7TCtyH6X6H1xiaCFQkmBhyiqiQlTQt7SZntGi2YNQV83IXYBfvg==@gatewalls.documents.azure.com:10255/?ssl=true&replicaSet=globaldb',
+    database: 'GatewallsDB',
+    ssl: true
   },
 
 
