@@ -10,7 +10,6 @@
     "grunt": "1.0.1",
     "lodash": "3.10.1",
     "sails": "^1.0.0-45",
-    "sails-hook-grunt": "^2.2.1",
     "sails-hook-orm": "^2.0.0-16",
     "sails-hook-sockets": "^1.4.0",
     "sails-mongo": "^1.0.0-11",
