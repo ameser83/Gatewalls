@@ -27,8 +27,13 @@ module.exports = {
       type:"integer", 
       autoIncrement:true
     },
+    description: "string",
+    imagename: "string",
+    imageurl: "string",
     title: {type: "string"},
     subtitle: {type: "string"},
+    latitude:"number",
+    longitude:"number",
     user: {model:"user", required: true},
     likes: {
               collection:"like", 

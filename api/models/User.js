@@ -22,7 +22,14 @@ module.exports = {
       type: 'string',
       unique: true,
       required:true
-    }
+    },
+    password: "string",
+    alias: "string",
+    birthday: "string",
+    posts: {
+      collection:"post", 
+      via: "user"
+   }
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
